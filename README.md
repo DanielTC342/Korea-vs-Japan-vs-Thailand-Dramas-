@@ -17,8 +17,6 @@ Key Performance Indicators (KPIs) considered in this analysis include popularity
 
 Based on this context, the analytical objective is to determine which combinations of attributes are most significantly associated with **high-performing dramas**, and to evaluate whether these patterns differ between **Korean, Japanese, and Thai productions**.
 
-From an implementation perspective, the objective of this repository is to **extract, transform, and load the data into multiple analytical-ready datasets**, each tailored to a specific Machine Learning technique to be executed in Weka.
-
 ## Analytical Techniques
 
 ### Classification
