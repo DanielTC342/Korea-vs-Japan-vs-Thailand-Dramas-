@@ -37,7 +37,7 @@ Classification is used to answer the following question:
 
 The goal is to build a supervised learning dataset that allows Weka to learn patterns linking structural and categorical attributes to popularity outcomes.
 
-### Clustering (Agrupación)
+### Clustering
 
 Clustering is applied to identify patterns that are not immediately visible by grouping dramas based on similarities in their structural and reception-related attributes. The objective is to discover **natural groupings** that may represent different drama formats or audience segments across regions.
 
