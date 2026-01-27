@@ -73,39 +73,17 @@ The repository is organized around **separate preprocessing pipelines**, one for
 
 **Notebook:** `01_merge_datasets.ipynb`
 
-- Loads the original Korean, Japanese, and Thai drama datasets
-- Standardizes column names and data formats
-- Merges all sources into a single consolidated dataset
-- Adds metadata for dataset traceability
-
 ### 2. Data Cleaning for Classification
 
 **Notebook:** `02_clean_classification_data.ipynb`
-
-- Selects attributes required for classification
-- Removes or handles missing values
-- Encodes multi-label genres into binary features
-- Bins popularity into High and Low classes
-- Saves the final classification dataset for Weka
 
 ### 3. Data Cleaning for Clustering
 
 **Notebook:** `03_clean_clustering_data.ipynb`
 
-- Selects attributes relevant for clustering
-- Cleans and converts numeric attributes
-- Encodes categorical variables appropriately
-- Prepares a dataset suitable for unsupervised learning
-- Saves the clustering dataset for Weka
-
 ### 4. Data Cleaning for Association
 
 **Notebook:** `04_clean_association_data.ipynb`
-
-- Selects categorical attributes required for association rule mining
-- Transforms variables into a transactional-like format
-- Ensures compatibility with the Apriori algorithm
-- Saves the association dataset for Weka
 
 ## Project Status
 
@@ -119,10 +97,10 @@ Future updates may include:
 
 ## Tools and Technologies
 
-- Python (pandas, numpy) for data cleaning and feature engineering  
+- Python (pandas, scikitlearn) for data cleaning and feature engineering
 - Jupyter Notebook for reproducible preprocessing workflows  
 - Weka for classification, clustering, and association rule mining  
 
 ## Final Remarks
 
-This project highlights the importance of tailoring data preprocessing to the specific requirements of each Machine Learning technique. By separating the cleaning and transformation steps for classification, clustering, and association, the project ensures **methodological clarity**, **reproducibility**, and a strong connection between **business objectives** and **data-driven decision-making**.
+This project highlights the importance of tailoring data preprocessing to the specific requirements of each Machine Learning technique. By separating the cleaning and transformation steps for classification, clustering and association, the project ensures **methodological clarity**, **reproducibility**, and a strong connection between **business objectives** and **data-driven decision-making**.
